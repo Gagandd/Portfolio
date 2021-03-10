@@ -1,0 +1,48 @@
+body{
+    background-color: #00d19a;   
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #name {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 0%;
+      height:0px;
+      display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    #xname {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 0%;
+      height:0px;
+      display: none;
+    }
+  }
+
+  h2{
+      color: black;
+      
+  }
+ 
+  .card, .card:hover, .card:active, .card:visited, .card:focus
+  {
+    text-decoration: none;
+    
+  }
+
+  .btn, .btn:hover, .btn:active, .btn:visited, .btn:focus {
+    text-decoration:none;
+    
+}
